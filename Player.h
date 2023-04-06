@@ -1,24 +1,14 @@
-#include "Character.h"
-
-class Player : Character
+#pragma once
+class FPlayer
 {
-private:
-	int Hp;
-	int MaxHp;
-
-	int Mp;
-	int MaxMp;
-
-	int PosX;
-	int PosY;
-
-	Player();
 
 public:
-	
-	void Set(int Hp, int MaxHp, int Mp, int MaxMp) override;
-	void SetLocation(int PosX, int PosY) override;
+	// property(다른언어), member variable(C++에서만 이렇게 부른당)
+	int MP;
+	int HP;
 
-	void Attack() override;
-	void Damaged() override;
+	// method, memeber function
+	void Move();
+	void Attack();
 };
+

@@ -1,5 +1,5 @@
 #pragma once
-class FGoblin
+class FBoar
 {
 public:
 	// property(다른언어), member variable(C++에서만 이렇게 부른당)

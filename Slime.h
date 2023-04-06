@@ -1,18 +1,13 @@
-#include "Monster.h"
-
-class Slime : Monster
+#pragma once
+class FSlime
 {
-private:
-	int Hp;
-	int MaxHp;
-
-	int PosX;
-	int PosY;
-
 public:
-	void Set(int Hp, int MaxHp) override;
-	void SetLocation(int PosX, int PosY) override;
+	// property(다른언어), member variable(C++에서만 이렇게 부른당)
+	int MP;
+	int HP;
 
-	void Attack() override;
-	void Damaged() override;
+	// method, memeber function
+	void Move();
+	void Attack();
 };
+
