@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Goblin.cpp" />
+    <ClCompile Include="Goblin.h" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Monster.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Slime.cpp" />
-    <ClCompile Include="WildGoar.cpp" />
+    <ClCompile Include="Monster.h" />
+    <ClCompile Include="Player.h" />
+    <ClCompile Include="Slime.h" />
+    <ClCompile Include="WildGoar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

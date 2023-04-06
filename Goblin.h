@@ -1,7 +1,13 @@
+#include "Monster.h"
+
 class Goblin : Monster
 {
 private:
-	int Goblin_Hp;
+	int Hp;
+	int MaxHp;
+
+	int PosX;
+	int PosY;
 
 public:
 	void Set(int Hp) override;

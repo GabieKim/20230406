@@ -1,4 +1,6 @@
 #include <iostream>
+#include "Player.h"
+#include "Monster.h"
 using namespace std;
 
 // 플레이어 HP MP 몬스터 공격 가능

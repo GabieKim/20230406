@@ -1,7 +1,13 @@
+#include "Monster.h"
+
 class Slime : Monster
 {
 private:
-	int Slime_Hp;
+	int Hp;
+	int MaxHp;
+
+	int PosX;
+	int PosY;
 
 public:
 	void Set(int Hp) override;

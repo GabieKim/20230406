@@ -18,20 +18,25 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Monster.cpp">
+    <ClCompile Include="Monster.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Slime.cpp">
+    <ClCompile Include="Slime.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Goblin.cpp">
+    <ClCompile Include="Goblin.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="WildGoar.cpp">
+    <ClCompile Include="WildGoar.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="Player.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

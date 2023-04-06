@@ -1,12 +1,20 @@
-class Player
+#include "Character.h"
+
+class Player : Character
 {
 private:
-	int Player_Hp;
-	int Player_Mp;
+	int Hp;
+	int MaxHp;
+
+	int Mp;
+	int MaxMp;
+
+	int PosX;
+	int PosY;
 
 public:
-	Player() {}
-	void Set(int Hp, int Mp);
-	void Attack();
-	void Damaged();
+	Player();
+	void Set(int Hp, int Mp) override;
+	void Attack() override;
+	void Damaged() override;
 };
