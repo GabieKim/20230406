@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Player.h"
 
 using namespace std;
 
@@ -8,6 +8,14 @@ using namespace std;
 
 int main()
 {
+	// 플레이어 하나 생성함
+	FPlayer* Player = new FPlayer();
 
+	cout << Player << endl;
+
+	
+	// 플레이어 죽었다(지웠다)
+	delete Player;
+	
 	return 0;
 }
