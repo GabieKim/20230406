@@ -14,7 +14,8 @@ private:
 	Character();
 public:
 	
-	virtual void Set(int Hp, int Mp);
+	virtual void Set(int Hp, int MaxHp, int Mp, int MaxMp);
+	virtual void SetLocation(int PosX, int PosY);
 	virtual void Attack();
 	virtual void Damaged();
 };

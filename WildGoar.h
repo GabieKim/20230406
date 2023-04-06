@@ -10,7 +10,9 @@ private:
 	int PosY;
 
 public:
-	void Set(int Hp) override;
+	void Set(int Hp, int MaxHp) override;
+	void SetLocation(int PosX, int PosY) override;
+
 	void Attack() override;
 	void Damaged() override;
 };

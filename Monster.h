@@ -8,9 +8,13 @@ private:
 
 	int PosX;
 	int PosY;
-public:
 	Monster();
-	virtual void Set(int Hp);
+
+public:
+	
+	virtual void Set(int Hp, int MaxHp);
+	void SetLocation(int PosX, int PosY) override;
+
 	virtual void Attack();
 	virtual void Damaged();
 };

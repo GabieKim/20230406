@@ -12,9 +12,13 @@ private:
 	int PosX;
 	int PosY;
 
-public:
 	Player();
-	void Set(int Hp, int Mp) override;
+
+public:
+	
+	void Set(int Hp, int MaxHp, int Mp, int MaxMp) override;
+	void SetLocation(int PosX, int PosY) override;
+
 	void Attack() override;
 	void Damaged() override;
 };
